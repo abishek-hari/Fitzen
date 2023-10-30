@@ -5,7 +5,7 @@ import {
   About,
   MuscleGroup,
   Footer,
-} from "../components/components";
+} from "../components/Components";
 
 const Homelayout = () => {
   return (
