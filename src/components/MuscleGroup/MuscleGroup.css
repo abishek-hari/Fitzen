@@ -1,0 +1,77 @@
+.muscleGroup__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.musclegroup__card {
+  background: linear-gradient(90deg, #ff616a 0%, #ffc837 100%);
+  height: 9rem;
+  width: 100%;
+  text-decoration: none;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+.info__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  padding-left: 1rem;
+  color: white;
+  letter-spacing: var(--letter-space);
+  font-size: var(--size-xs);
+}
+.card__min {
+  font-size: var(--size-sm);
+}
+.card__exercises {
+  font-size: var(--size-sm);
+}
+.img__card {
+  display: grid;
+  align-items: center;
+  justify-content: end;
+}
+.card__info-title {
+  font-size: var(--size-2xl);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-space);
+}
+.musclegroup__title {
+  font-size: var(--size-2xl);
+  margin-bottom: 2.5rem;
+  color: var(--gray-500);
+  text-align: center;
+}
+.musclegroup__img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+@media (min-width: 425px) {
+  .musclegroup__card {
+    height: 14.5rem;
+  }
+  .musclegroup__title {
+    font-size: var(--size-3xl);
+  }
+}
+@media (min-width: 768px) {
+  .musclegroup__title {
+    font-size: var(--size-4xl);
+  }
+  .muscleGroup__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .musclegroup__title {
+    font-size: var(--size-4xl);
+  }
+}
+@media (min-width: 1024px) {
+  .musclegroup__title {
+    font-size: var(--size-5xl);
+  }
+}

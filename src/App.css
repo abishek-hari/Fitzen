@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  /* --clr-primary: #fafafa; */
+  /* --clr-primary: #fffbeb; */
+  --clr-primary: #fff9e0;
+  --clr-primary-1: #fff9e0;
+  --clr-primary-2: #fcf8e9;
+  --clr-medium: #5e0000;
+  --clr-base: #dfcccc;
+
+  --gray-20: #f8f4eb;
+  --gray-50: #efe6e6;
+  --gray-100: #dfcccc;
+  --gray-500: #5e0000;
+  --gray-400: #5e0000a9;
+  --primary-50: #fff0ef;
+  --primary-100: #ffe1e0;
+  --primary-300: #ffa6a3;
+  --primary-500: #ff6b66;
+  --secondary-400: #ffcd5b;
+  --secondary-500: #ffc132;
+
+  /* Sizes */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-sml: 0.9rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-4lg: 2.5rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+
+  /* Font Weight */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /* letter spacing */
+  --letter-space: 1px;
+  --letter-space-sm: 0.5px;
+
+  /* line height */
+  --wider-sm: 1.75;
+  --wider-xs: 1.5;
+  --wider-lg: 2;
+}
+
+body {
+  font-family: "Josefin Sans";
+  /* background: linear-gradient(90deg, #ff616a 0%, #ffc837 100%); */
+  background-color: var(--clr-primary);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+.container {
+  width: 97vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.section {
+  padding-top: 5rem;
+}
+
+/* colors: {
+    "gray-20": "#F8F4EB",
+    "gray-50": "#EFE6E6",
+    "gray-100": "#DFCCCC",
+    "gray-500": "#5E0000",
+    "primary-100": "#FFE1E0",
+    "primary-300": "#FFA6A3",
+    "primary-500": "#FF6B66",
+    "secondary-400": "#FFCD5B",
+    "secondary-500": "#FFC132",
+  },
+  backgroundImage: (theme) => ({
+    "gradient-yellowred":
+      "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
+    "mobile-home": "url('./assets/HomePageGraphic.png')",
+  }) */
+
+@media (min-width: 675px) {
+  .container {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
