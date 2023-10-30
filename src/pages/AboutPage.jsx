@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, About } from "../components/components";
+import { Navbar, About } from "../components/Components";
 
 const AboutPage = () => {
   return (
